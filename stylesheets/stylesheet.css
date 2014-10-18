@@ -95,6 +95,18 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+#main_content::after {
+  background: url(http://i.imgur.com/Af9Btn6.png) 50% no-repeat;
+  content: '';
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
 #main_content h1 {
   font-size: 30px;
 }
