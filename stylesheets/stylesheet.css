@@ -96,7 +96,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content::after {
-  background: url(http://i.imgur.com/Af9Btn6.png) 50% no-repeat;
+  background: url(http://i.imgur.com/Af9Btn6.png) no-repeat;
+  background-size: 50%;
+  background-position-x: center;
   content: '';
   opacity: 0.5;
   top: 0px;
